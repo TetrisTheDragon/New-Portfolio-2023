@@ -48,10 +48,6 @@ body {
     padding-top: 40px;
     background-color: #FFE6BB;
 }
-#Logo {
-position: fixed;
-justify-content: flex-start;
-}
 
 #mover{
 font-size: 50px;
@@ -59,8 +55,8 @@ font-style: normal;
 font-family: 'abril_fatfaceregular';
 padding-top: 43px;
 padding-bottom: 43px;
-padding-left: 103px;
-padding-right: 103px;
+padding-left: 80px;
+padding-right: 80px;
 transition-property: background-color color;
 transition-duration: 1s;
 transition-delay: .10s;
@@ -73,7 +69,30 @@ transition-timing-function: ease-in ease-out;
     transition-delay: .10s;
     transition-timing-function: ease-in ease-out;
 }
+#Logo {
+    margin-left: 15px;
+}
+#Work {
+    font-size: 50px;
+font-style: normal;
+font-family: 'abril_fatfaceregular';
+padding-top: 43px;
+padding-bottom: 43px;
+padding-left: 80px;
+    padding-right: 65px;
+    transition-property: background-color color;
+transition-duration: 1s;
+transition-delay: .10s;
+transition-timing-function: ease-in ease-out;
+}
 
+#Work:hover {
+        background-color: #c09f68;
+    transition-property: background-color color;
+    transition-duration: 1s;
+    transition-delay: .10s;
+    transition-timing-function: ease-in ease-out;
+}
 ul {
     display: flex;
     align-items: center;
@@ -87,6 +106,7 @@ ul {
     list-style-type: none;
     padding-top: 20px;
     margin-left: 0px;
+    flex-direction: row-reverse;
 }
 
 a {
