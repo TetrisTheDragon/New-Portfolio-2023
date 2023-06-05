@@ -217,7 +217,7 @@ a {
 }
 #about-me {
     width: 616px;
-    height: 360px;
+    height: 440px;
     border: 1px solid black;
     background-color: #FFE6BB;
     top: 830px;
@@ -232,10 +232,10 @@ a {
 #scroll {
     position: absolute;
     width: 567px;
-    height: 90px;
+    height: 100px;
     border: 1px solid black;
     background-color: #FFE6BB;
-    top: 1220px;
+    top: 1280px;
     text-align: center;
     margin-left: 375px;
     font-family: 'montserratmedium';
